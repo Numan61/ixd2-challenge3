@@ -1,0 +1,224 @@
+body {
+    background: linear-gradient(to bottom, #125592 0%, #34AEE9 100%);
+  background-attachment: fixed;
+  color: #FFF;
+  text-align: center;
+    margin:0;
+}
+#map {
+  height: 45vh;
+  width: 100vw;
+
+}
+p{
+     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+#fly {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 35%;
+    height: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    background: #09577e;
+    margin-bottom: 30px;
+}
+fieldset{
+     border-style: none;
+}
+
+label{
+    font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+    width:40px;
+    height:20px;
+}
+
+#getWeather {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#city{
+     padding: 10px 32px;
+}
+
+#weather{
+    background-color: #09577e;
+    width:50%;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    font-size: 40px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+
+#menu {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    width:auto;
+    height:20px;
+}
+
+#checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+#light-v10{
+    width:40px;
+    height: 40px;
+}
+
+#dark-v10{
+     width:40px;
+    height: 40px;
+}
+
+#outdoors-v11{
+     width:40px;
+    height: 40px;
+}
+
+#satellite-v9{
+     width:40px;
+    height: 40px;
+}
+
+#streets-v11{
+     width:40px;
+    height: 40px;
+}
+.tekst{
+    text-align: center;
+    margin: 50px;
+    line-height: 90px;
+}
+
+.flex-grid {
+  display: flex;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 768px) {
+    p{
+        font-size: 16px;
+    }
+      .tekst{
+    line-height: 60px;
+}
+    
+    #weather{
+        font-size:30px;
+    }
+    
+    #light-v10{
+    width:35px;
+    height: 35px;
+    }
+
+    #dark-v10{
+         width:35px;
+        height: 35px;
+    }
+
+    #outdoors-v11{
+         width:35px;
+        height: 35px;
+    }
+
+    #satellite-v9{
+         width:35px;
+        height: 35px;
+    }
+
+    #streets-v11{
+         width:35px;
+        height: 35px;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    #map {
+  height: 70vh;
+  width: 100vw;
+    }
+    
+    .tekst{
+    line-height: 40px;
+}
+    #weather{
+        font-size:20px;
+        width: 20%;
+    }
+    
+    #fly{
+        width: 20%;
+        font-size:20px;
+    }
+    
+    label{
+        font-size:20px;
+    }
+    
+        #light-v10{
+    width:30px;
+    height: 30px;
+    }
+
+    #dark-v10{
+         width:30px;
+        height: 30px;
+    }
+
+    #outdoors-v11{
+         width:30px;
+        height: 30px;
+    }
+
+    #satellite-v9{
+         width:30px;
+        height: 30px;
+    }
+
+    #streets-v11{
+         width:30px;
+        height: 30px;
+    }
+    
+    
+}
+@media screen and (min-width: 1920px) {
+    #weather{
+        width: 15%;
+    }
+}
+
+
